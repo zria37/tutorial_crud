@@ -37,6 +37,10 @@
                                 <label for="notlp" class="form-label">Telphone</label>
                                 <input type="number" class="form-control" id="notlp" name="notlp">
                             </div>
+                            <div class="mb-3">
+                                <label for="photo" class="form-label">Masukan Foto</label>
+                                <input type="file" class="form-control" id="photo" name="photo">
+                            </div>
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>

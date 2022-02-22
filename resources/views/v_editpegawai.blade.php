@@ -39,6 +39,11 @@
                                 <input type="number" class="form-control" id="notlp" name="notlp"
                                     value="{{ $data->notlp }}">
                             </div>
+                            <div class="mb-3">
+                                <label for="photo" class="form-label">Masukan Foto</label>
+                                <input type="file" class="form-control" id="photo" name="photo"
+                                    value="{{ $data->photo }}">
+                            </div>
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>

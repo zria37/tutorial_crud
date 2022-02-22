@@ -30,6 +30,7 @@
                         <th scope="col">Nama</th>
                         <th scope="col">Jenis Kelamin</th>
                         <th scope="col">No.Tlp</th>
+                        <th scope="col">Photo</th>
                         <th scope="col">Aksi</th>
                     </tr>
                 </thead>
@@ -43,6 +44,9 @@
                             <td>{{ $row->nama }}</td>
                             <td>{{ $row->Jk }}</td>
                             <td>0{{ $row->notlp }}</td>
+                            <td>
+                                <img src="{{ asset('fotopegawai/' . $row->photo) }}" alt="" style="width: 50px">
+                            </td>
                             <td>
                                 <a href="/deletepegawai/{{ $row->id }}" class="btn btn-danger">Delete</a>
                                 <a href="/editpegawai/{{ $row->id }}" class="btn btn-warning">Edit</a>
